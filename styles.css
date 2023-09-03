@@ -63,7 +63,7 @@ a[href^="https://www.dropbox.com/scl/"] {
     display: block;
     margin: 10px 0;
     text-decoration: none;
-    background-color: #0077b6;
+    background-color: green;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
