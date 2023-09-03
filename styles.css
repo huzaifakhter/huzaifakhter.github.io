@@ -8,15 +8,18 @@ body, h1, h2, h3, p, ul, li, a {
 body {
     font-family: 'Bodoni Moda', serif;
     font-family: 'Libre Bodoni', serif;
-    background-color: #eaf9f2;
-    color: #333;
+    font-family: 'Noto Sans', sans-serif;
+    /*background-color: #eaf9f2;*/
+    background-color: #0f0f0f;
+    color: white;
+  
     
 }
 
 /* Style the header */
 header {
-    background-color: lavenderblush;
-    color: black;
+    background-color: #0f0f0f;
+    color: white;
     text-align: center;
     padding: 20px;
     
@@ -26,11 +29,11 @@ header {
 nav ul {
     list-style: none;
     text-align: center;
-    background-color: lavenderblush;
+    background-color: #0f0f0f;
     padding: 10px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    box-shadow: 0px 5px 5px #888888;
+    box-shadow: 0px 5px 5px greenyellow;
     
     
     
@@ -45,10 +48,10 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #373a71;
-    background-color: #eaf9f2;
+    color: greenyellow;
+    /*background-color: greenyellow;
     padding: 2px 5px;
-    border-radius: 5px;
+    border-radius: 10px;*/
     
     
 }
@@ -63,26 +66,26 @@ nav ul li a {
 }
 
 /* Style the section containing notes */
-section {
+/*section {
     padding: 20px;
     
     
-}
+}*/
 
 /* Style the individual semesters and their content */
-.sem1, .sem2, .sem3 {
-    margin-top: 20px;
+.sem1, .sem2, .sem3, .edu, .intr, .head, .cont, .scm {
+    margin: 20px;
     padding: 15px;
-    border: 1px solid #ddd;
+    border: 0px solid #ddd;
     border-radius: 25px;
-    background-color: whitesmoke;
+    background-color: #272727;
     
 }
 
 /* Style the download links */
 a[href^="https://www.dropbox.com/scl/"] {
-    color: green;
-    text-decoration-color: green;
+    color: gray;
+    text-decoration-color: greenyellow;
 }
 
 /*a[href^="https://www.dropbox.com/scl/"]:hover {
@@ -115,16 +118,12 @@ a[href^="https://www.dropbox.com/scl/"] {
   font-size: 16px;
 }
 
-footer {
-  background-color: red;
+a[href^="https://github.com/huzaifakhter"] {
+  color: gray;
+  text-decoration-color: greenyellow;
 }
 
-.scm {
-    margin-top: 20px;
-    padding: 15px;
-    border: 1px solid #ddd;
-    border-radius: 25px;
-    background-color: whitesmoke;
-    
-
+a[href^="https://instagram.com/profile.huzaif?utm_source=qr&igshid=YzU1NGVlODEzOA=="]{
+  color: gray;
+  text-decoration-color: greenyellow;
 }
