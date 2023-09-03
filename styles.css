@@ -46,6 +46,7 @@ nav ul li a {
 
 /* Style the section containing notes */
 section {
+    border-radius: 25px;
     padding: 20px;
     background-color: #fff;
     margin: 20px;
@@ -53,6 +54,7 @@ section {
 
 /* Style the individual semesters and their content */
 .sem1, .sem2, .sem3 {
+    border-radius: 25px;
     margin-top: 20px;
     padding: 10px;
     border: 1px solid #ddd;
