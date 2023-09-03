@@ -6,37 +6,51 @@ body, h1, h2, h3, p, ul, li, a {
 
 /* Style the body */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Bodoni Moda', serif;
+    font-family: 'Libre Bodoni', serif;
     background-color: #eaf9f2;
     color: #333;
+    
 }
 
 /* Style the header */
 header {
-    background-color: #936b9f;
-    color: #fff;
+    background-color: lavenderblush;
+    color: black;
     text-align: center;
     padding: 20px;
+    
 }
 
 /* Style the navigation menu */
 nav ul {
     list-style: none;
     text-align: center;
-    background-color: #333;
+    background-color: lavenderblush;
     padding: 10px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    box-shadow: 0px 5px 5px #888888;
+    
+    
+    
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
+    
+    
 }
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #373a71;
+    background-color: #eaf9f2;
+    padding: 2px 5px;
+    border-radius: 5px;
+    
+    
 }
 
 /* Style the centertxt div */
@@ -44,37 +58,73 @@ nav ul li a {
     text-align: center;
     font-size: 24px;
     margin: 20px;
+    text-shadow: 5px 5px 5px;
+  text-decoration-color: black
 }
 
 /* Style the section containing notes */
 section {
-    border-radius: 25px;
     padding: 20px;
-    background-color: #fff;
-    margin: 20px;
+    
+    
 }
 
 /* Style the individual semesters and their content */
 .sem1, .sem2, .sem3 {
-    border-radius: 25px;
     margin-top: 20px;
-    padding: 10px;
+    padding: 15px;
     border: 1px solid #ddd;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    
 }
 
 /* Style the download links */
-/* Style the download links */
-/*a[href^="https://www.dropbox.com/scl/"] {
-    display: inline-block;
-    margin: 10px 0;
-    text-decoration: none;
-    background-color: #4CAF50; /* Green color */
-    color: #fff;
-    padding: 10px 20px; /* Adjust the padding for size */
-    border-radius: 5px;
-    font-weight: bold;
+a[href^="https://www.dropbox.com/scl/"] {
+    color: green;
+    text-decoration-color: green;
 }
 
-a[href^="https://www.dropbox.com/scl/"]:hover {
-    background-color: #45a049; /* Darker green color on hover */
+/*a[href^="https://www.dropbox.com/scl/"]:hover {
+    
 }*/
+
+@keyframes textColorChange {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: orange;
+  }
+  100% {
+    color: purple;
+  }
+}
+
+/* Apply the animation to the text */
+.centertxt{
+  animation: textColorChange 5s linear infinite;
+  font-weight: bold;
+  font-family: monaco;
+  font-size: 16px;
+}
+
+footer {
+  background-color: red;
+}
+
+.scm {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    background-color: whitesmoke;
+    
+
+}
