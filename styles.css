@@ -1,0 +1,75 @@
+/* Reset some default styles to avoid unexpected behavior */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    background-color: #0077b6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    text-align: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the centertxt div */
+.centertxt {
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+}
+
+/* Style the section containing notes */
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+}
+
+/* Style the individual semesters and their content */
+.sem1, .sem2, .sem3 {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Style the download links */
+a[href^="https://www.dropbox.com/scl/"] {
+    display: block;
+    margin: 10px 0;
+    text-decoration: none;
+    background-color: #0077b6;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+a[href^="https://www.dropbox.com/scl/"]:hover {
+    background-color: #005582;
+}
