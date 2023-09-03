@@ -59,17 +59,18 @@ section {
 }
 
 /* Style the download links */
+/* Style the download links */
 a[href^="https://www.dropbox.com/scl/"] {
-    display: block;
+    display: inline-block;
     margin: 10px 0;
     text-decoration: none;
-    background-color: green;
+    background-color: #4CAF50; /* Green color */
     color: #fff;
-    padding: 5px 10px;
+    padding: 10px 20px; /* Adjust the padding for size */
     border-radius: 5px;
     font-weight: bold;
 }
 
 a[href^="https://www.dropbox.com/scl/"]:hover {
-    background-color: #005582;
+    background-color: #45a049; /* Darker green color on hover */
 }
