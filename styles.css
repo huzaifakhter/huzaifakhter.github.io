@@ -60,7 +60,7 @@ section {
 
 /* Style the download links */
 /* Style the download links */
-a[href^="https://www.dropbox.com/scl/"] {
+/*a[href^="https://www.dropbox.com/scl/"] {
     display: inline-block;
     margin: 10px 0;
     text-decoration: none;
@@ -73,4 +73,4 @@ a[href^="https://www.dropbox.com/scl/"] {
 
 a[href^="https://www.dropbox.com/scl/"]:hover {
     background-color: #45a049; /* Darker green color on hover */
-}
+}*/
